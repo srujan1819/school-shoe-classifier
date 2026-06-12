@@ -34,21 +34,6 @@ To find the optimal balance between classification accuracy and computational ef
 Detailed performance analysis and evaluation summaries for each model are saved as standalone verification documents in the repository.
 
 ---
-
-## ## Model Performance & Evaluation
-
-The training logs and metrics for each tested architecture are documented inside individual evaluation sheets. Below is a summary highlight of the models:
-
-| Model Architecture | Accuracy | Precision | Recall | F1-Score | Status |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **ResNet50** | *[Insert %]* | *[Insert]* | *[Insert]* | *[Insert]* | 🏆 Best Accuracy |
-| **MobileNetV2** | *[Insert %]* | *[Insert]* | *[Insert]* | *[Insert]* | ⚡ Best for Mobile/Edge |
-| **Custom CNN** | *[Insert %]* | *[Insert]* | *[Insert]* | *[Insert]* | 📉 Baseline Model |
-
-*(Note: You can check the full visual validation plots, loss curves, and confusion matrices inside the respective `.pdf` files uploaded in this repository.)*
-
----
-
 ## ## Repository File Structure
 ```text
 ├── school-shoe-classifier.py  # Main Python script (Model training & pipeline)
